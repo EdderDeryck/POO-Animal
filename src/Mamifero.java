@@ -16,6 +16,9 @@ public class Mamifero extends Animal {
 
     @Override
     public String toString() {
-        return super.toString() + "\n alimento = " + alimento ;
+        return super.toString() + String.format(
+                "\n%-17s: %s",
+                "Alimento", alimento
+        );
     }
 }
