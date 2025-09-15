@@ -65,12 +65,19 @@ public class Animal {
 
     @Override
     public String toString() {
-        return '\n' +
-                "Nome = " + nome + '\n' +
-                " Comprimento = " + comprimento + '\n' +
-                " numero de patas = " + numeroDePatas + '\n' +
-                " cor = " + cor + '\n' +
-                " ambiente = " + ambiente + '\n' +
-                " velocidadeMedia = " + velocidadeMedia;
+        return String.format(
+                "\n%-17s: %s" +
+                        "\n%-17s: %.1f" +
+                        "\n%-17s: %d" +
+                        "\n%-17s: %s" +
+                        "\n%-17s: %s" +
+                        "\n%-17s: %.1f",
+                "Nome", nome,
+                "Comprimento", comprimento,
+                "Número de patas", numeroDePatas,
+                "Cor", cor,
+                "Ambiente", ambiente,
+                "Velocidade Média", velocidadeMedia
+        );
     }
 }
