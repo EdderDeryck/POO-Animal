@@ -11,7 +11,7 @@ public class Main {
                 "Leite"
         );
 
-        Peixe tubarao = new Peixe(
+        Peixe tilapia = new Peixe(
                 "Tilápia",
                 20.0,
                 0,
