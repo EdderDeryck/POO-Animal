@@ -16,6 +16,9 @@ public class Peixe extends Animal {
 
     @Override
     public String toString() {
-        return super.toString() + " \n caracteristica = " + caracteristica;
+        return super.toString() + String.format(
+                "\n%-17s: %s",
+                "Característica", caracteristica
+        );
     }
 }
