@@ -19,3 +19,15 @@ Através da criação de uma hierarquia de classes que representam diferentes ti
 - Demonstrar uso de métodos abstratos, sobrescrita de métodos e polimorfismo.
 - Validar dados de entrada nos construtores.
 - Exibir informações formatadas sobre cada animal.
+## Como usar
+
+Clone o repositório:
+
+git clone https://github.com/EdderDeryck/POO-Animal.git
+
+
+Abra na sua IDE Java (como IntelliJ ou VSCode com Java).
+
+Compile e execute a classe Main ou equivalente no projeto.
+
+Siga as instruções no console para simular o funcionamento da oficina.
